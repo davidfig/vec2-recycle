@@ -24,35 +24,20 @@ vec2.recycle(v2)
 ```
 
 ## API Documentation
-[https://davidfig.github.io/pixi-viewport/jsdoc/](https://davidfig.github.io/pixi-viewport/jsdoc/)
+[https://davidfig.github.io/vec2-recycle/jsdoc/](https://davidfig.github.io/vec2-recycle/)
 
 ## Installation
 
-    yarn add pixi-viewport
+    yarn add vec2-recycle
 or
 
-    npm i pixi-viewport
-
-or [grab the latest release](https://github.com/davidfig/pixi-viewport/releases/) and use it:
-
-```html
-<script src="/directory-to-file/pixi.js"></script>
-<script src="/directory-to-file/pixi-viewport.js"></script>
-<!-- or <script type="module" src="/directory-to-file/pixi-viewport.es.js"></script> -->
-<script>
-    const Viewport = new Viewport.Viewport(options)
-</script>
-```
-
-## Build Examples
-I've included a bunch of build examples in the docs/builds directory, including: [browserify](https://github.com/davidfig/pixi-viewport/tree/master/docs/builds/browserify), [rollup](https://github.com/davidfig/pixi-viewport/tree/master/docs/builds/rollup), [standalone (e.g., cdn)](https://github.com/davidfig/pixi-viewport/tree/master/docs/builds/standalone), [standalone (pixi.js v4)](https://github.com/davidfig/pixi-viewport/tree/master/docs/builds/standalone-v4), and [typescript](https://github.com/davidfig/pixi-viewport/tree/master/docs/builds/ts). You can see the live demos at [https://davidfig.github.io/pixi-viewport/builds/](https://davidfig.github.io/pixi-viewport/builds/).
+    npm i vec2-recycle
   
 ## Tests
 
 1. Clone repository
 2. yarn install
-3. yarn test (for Mocha test code)
-4. yarn coverage (for Instanbul coverage)
+3. yarn test (for jest test code)
 
 ## Other Libraries
 If you liked pixi-viewport, please try my other open source libraries:
@@ -62,4 +47,4 @@ If you liked pixi-viewport, please try my other open source libraries:
 
 ## license  
 MIT License  
-(c) 2019 [YOPEY YOPEY LLC](https://yopeyopey.com/) by [David Figatner](https://twitter.com/yopey_yopey/)
+(c) 2020 [YOPEY YOPEY LLC](https://yopeyopey.com/) by [David Figatner](https://twitter.com/yopey_yopey/)
