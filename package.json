@@ -1,0 +1,29 @@
+{
+  "name": "vec2-recycle",
+  "version": "0.1.0",
+  "description": "another vanilla vec-2 library with recycling",
+  "module": "index.js",
+  "scripts": {
+    "test": "jest test.js",
+    "docs": "jsdoc -c docs/.jsdoc.json"
+  },
+  "keywords": [
+    "vec2",
+    "vector",
+    "recycle",
+    "factory"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "David Figatner <david@yopeyopey.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "jsdoc": "^3.6.3",
+    "yy-jsdoc-template": "^1.3.0"
+  }
+}
