@@ -34,6 +34,7 @@
         "./node_modules/yy-jsdoc-template/plugins/skip-node_modules",
         "plugins/markdown"
     ],
+    "readmeShowNav": "global",
     "templates": {
         "default": {
             "outputSourceFiles": true
