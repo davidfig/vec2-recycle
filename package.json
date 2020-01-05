@@ -1,12 +1,12 @@
 {
   "name": "vec2-recycle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "another vanilla vec-2 library with recycling",
   "module": "index.js",
   "scripts": {
     "test": "jest test.js",
     "docs": "jsdoc -c docs/.jsdoc.json",
-    "prepublishOnly": "yarn docs && rm docs/index.html && mv docs/global.html docs/index.html"
+    "prepublishOnly": "yarn docs"
   },
   "keywords": [
     "vec2",
